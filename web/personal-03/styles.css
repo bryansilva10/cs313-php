@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #17B890;
+}
+
+footer {
+  background-color: #FBF7F3;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+  border-radius: 5%;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 10px 0 8px;
+}
+
+.footer-link {
+  color: black;
+  margin: 10px 10px;
+  opacity: 0.8;
+}
+
+.footer-link:hover {
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+.copyright {
+  color: black;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  opacity: 0.8;
+}
