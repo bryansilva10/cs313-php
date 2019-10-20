@@ -1,3 +1,11 @@
-CREATE TABLE list (id SERIAL NOT NULL PRIMARY KEY, list_name VARCHAR(50) NOT NULL UNIQUE)
-
-CREATE TABLE task (task_id SERIAL NOT NULL PRIMARY KEY, list_id SERIAL NOT NULL REFERENCES list(id),task_name VARCHAR(50) NOT NULL, task_desc VARCHAR(255),completed BOOLEAN NOT NULL DEFAULT '0')
+CREATE TABLE users (
+  id        SERIAL NOT NULL PRIMARY KEY,
+  username  VARCHAR(50)
+);
+CREATE TABLE items (
+  id        SERIAL NOT NULL PRIMARY KEY,
+  name      VARCHAR(100),
+  user      INT NOT NULL REFERENCES users(id),
+  completed BOOLEAN,
+  created   DATETIME 
+);
