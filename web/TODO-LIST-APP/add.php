@@ -1,6 +1,8 @@
 <?php
 
-require_once 'action.php';
+require_once('action.php');
+
+$db = get_db();
 
 if(isset($_POST['name'])) {
   $name = trim($_POST['name']); //get rid of whitespace

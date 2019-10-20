@@ -1,6 +1,8 @@
 <?php
 
-require_once 'action.php';
+require_once('action.php');
+
+$db = get_db();
 
 $itemsQuery = $db->prepare("
   SELECT id, name, completed

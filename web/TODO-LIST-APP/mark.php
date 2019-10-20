@@ -1,6 +1,8 @@
 <?php
 
-require_once 'action.php';
+require_once('action.php');
+
+$db = get_db();
 
 if(isset($_GET['as'], $_GET['item'])) {
   $as = $_GET['as'];
