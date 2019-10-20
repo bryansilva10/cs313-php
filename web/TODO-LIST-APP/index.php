@@ -5,13 +5,13 @@ require_once 'action.php';
 $itemsQuery = $db->prepare("
   SELECT id, name, completed
   FROM items
-  WHERE user = :user 
+  WHERE id_user = :user 
 
 "); //:user is placeholder to prevent sql injection
 
 //execute query
 $itemsQuery->execute([
-  'user' => $_SESSION['user_id'] //pass the user id of the session
+  'id_user' => $_SESSION['user_id'] //pass the user id of the session
 ]);
 
 

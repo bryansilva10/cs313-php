@@ -13,12 +13,12 @@ if(isset($_GET['as'], $_GET['item'])) {
         UPDATE items
         SET done = 1
         WHERE id = :item
-        AND user = :user
+        AND id_user = :user
       ");
 
       $doneQuery->execute([
         'item' => $item,
-        'user' => $_SESSION['user_id']
+        'id_user' => $_SESSION['user_id']
       ]);
     break;
   }
