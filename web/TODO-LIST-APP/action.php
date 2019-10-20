@@ -4,9 +4,9 @@ session_start();
 
 $_SESSION['user_id'] = 1;
 
-if (!isset($_SESSION['user_id'])) {
-  die('You are not signed in.');
-}
+// if (!isset($_SESSION['user_id'])) {
+//   die('You are not signed in.');
+// }
 
 function get_db() {
     $db = NULL;
