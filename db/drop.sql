@@ -1,2 +1,3 @@
-DROP TABLE users;
-DROP TABLE items;
+DROP TABLE item;
+DROP TABLE buyer;
+DROP TABLE item_buyer;
