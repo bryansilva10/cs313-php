@@ -32,6 +32,14 @@
             <button type="submit" class="btn btn-primary my-1">Submit</button>
         </form>
         </div>
+
+        <div class="card justify-content-center" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Eggs</li>
+                <li class="list-group-item">Coca Cola</li>
+                <li class="list-group-item">Ketchup</li>
+            </ul>
+        </div>
     </div>
       
   </body>
