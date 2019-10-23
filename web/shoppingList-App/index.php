@@ -19,6 +19,18 @@
         <div class="jumbotron">
             <h1>Family Shopping List</h1>
         </div>
+
+        <div>
+        <form class="form-inline">
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Whose Shopping List is this?</label>
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>Choose...</option>
+                <option value="1">Nataly</option>
+                <option value="2">Bryan</option>
+                <option value="3">Sebastian</option>
+            </select>
+        </form>
+        </div>
     </div>
       
   </body>
