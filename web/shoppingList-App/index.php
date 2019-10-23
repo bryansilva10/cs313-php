@@ -21,7 +21,7 @@
         </div>
 
         <div>
-        <form class="form-inline">
+        <form class="form-inline justify-content-center">
             <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Whose Shopping List is this?</label>
             <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
                 <option selected>Choose...</option>
@@ -29,6 +29,7 @@
                 <option value="2">Bryan</option>
                 <option value="3">Sebastian</option>
             </select>
+            <button type="submit" class="btn btn-primary my-1">Submit</button>
         </form>
         </div>
     </div>
