@@ -36,8 +36,8 @@ $db = get_db();
                   <h6 class="card-price text-center">$' . ucfirst($row['price']) . '</h6>
                   <hr>
                   <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Guitar Model: <strong>' . ucfirst($row['name']) . '</strong></li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Body Color: <strong>' . ucfirst($row['storage']) . '</strong></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Guitar Model: <strong>' . ucfirst($row['name_laptop']) . '</strong></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Body Color: <strong>' . ucfirst($row['capacity']) . '</strong></li>
                   </ul>
                   <input type="hidden" value="'. $row['id'] .'">
                   <button type="submit" class="btn btn-block btn-primary text-uppercase">Add to Cart</button>
