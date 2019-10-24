@@ -1,3 +1,3 @@
-DROP TABLE item;
-DROP TABLE buyer;
-DROP TABLE item_buyer;
+DROP TABLE laptop_storage;
+DROP TABLE laptop;
+DROP TABLE storage;
