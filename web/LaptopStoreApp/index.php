@@ -63,10 +63,10 @@ $db = get_db();
     </section>
 
     <!-- Footer -->
-    <footer class="page-footer font-small blue">
+    <footer class="footer mt-auto py-3">
 
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <div class="container text-center">© 2019 Copyright
         <a href="https://github.com/bryansilva10">Check my Github!</a>
       </div>
       <!-- Copyright -->
