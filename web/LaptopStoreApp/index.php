@@ -19,7 +19,7 @@ $db = get_db();
     <body>
 
     <header>
-      <div class="container">
+      <div class="container text-center">
         <div class="jumbotron">
           <h1>Guillen Laptop Store</h1>
           <p>We have any kind of brand and storage you wish!</p>
