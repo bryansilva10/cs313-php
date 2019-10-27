@@ -64,8 +64,8 @@ $db = get_db();
 
     <div class="container text-center">
       <div class="jumbotron" style="background-color:#007bff">
-        <h1>Didn't like any of our preset options?</h1>
-        <h2>Build your own Laptop:</h2>
+        <h2>Didn't like any of our preset options?</h2>
+        <h3>Build your own Laptop:</h3>
       </div> 
     </div>
     
@@ -86,7 +86,17 @@ $db = get_db();
           </select>
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <label for="exampleFormControlSelect1">Laptop Storage</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>32GB</option>
+            <option>64GB</option>
+            <option>128GB</option>
+            <option>256GB</option>
+            <option>512GB</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Any special Requests? (We'll do what we can!)</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
       </form>
