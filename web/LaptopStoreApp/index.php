@@ -62,6 +62,18 @@ $db = get_db();
       </div>
     </section>
 
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://github.com/bryansilva10">Check my Github!</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+      <!-- Footer -->
+
         <script src=""></script>
     </body>
 </html>
