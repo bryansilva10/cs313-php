@@ -63,7 +63,7 @@ $db = get_db();
     </section>
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-3">
+    <footer class="footer mt-auto py-3 bg-blue">
 
       <!-- Copyright -->
       <div class="container text-center">© 2019 Copyright
