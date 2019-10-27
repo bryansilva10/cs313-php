@@ -65,7 +65,7 @@ $db = get_db();
     <div class="container text-center">
       <div class="jumbotron" style="background-color:#007bff">
         <h2>Didn't like any of our preset options?</h2>
-        <h3>Build your own Laptop:</h3>
+        <h3>Build your own Laptop below!</h3>
       </div> 
     </div>
     
@@ -99,6 +99,7 @@ $db = get_db();
           <label for="exampleFormControlTextarea1">Any special Requests? (We'll do what we can!)</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
       </form>
     </div>
 
