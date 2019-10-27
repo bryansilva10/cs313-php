@@ -62,6 +62,39 @@ $db = get_db();
       </div>
     </section>
 
+    <div class="container text-center">
+      <div class="jumbotron" style="background-color:#007bff">
+        <h1>Didn't like any of our preset options?</h1>
+        <h2>Build your own Laptop:</h2>
+      </div> 
+    </div>
+    
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name...">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Laptop Brand</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Apple</option>
+            <option>HP</option>
+            <option>Dell</option>
+            <option>Lenovo</option>
+            <option>Toshiba</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+    </div>
+
+
+
+
     <!-- Footer -->
     <footer class="footer mt-auto py-3 bg-blue">
 
