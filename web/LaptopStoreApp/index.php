@@ -20,7 +20,7 @@ $db = get_db();
 
     <header>
       <div class="container text-center">
-        <div class="jumbotron" style="background-color:#007bff">
+        <div class="jumbotron text-jumbo" style="background-color:#007bff">
           <h1>Guillen Laptop Store</h1>
           <p>We have any kind of brand and storage you wish!</p>
         </div>
@@ -63,9 +63,9 @@ $db = get_db();
     </section>
 
     <div class="container text-center">
-      <div class="jumbotron" style="background-color:#007bff">
-        <h2>Didn't like any of our Preset options?</h2>
-        <h3>Add one to the wishlist and we will contact you when we have it!</h3>
+      <div class="jumbotron text-jumbo" style="background-color:#007bff">
+        <h3>Didn't like any of our Preset options?</h3>
+        <h4>Add one to the wishlist and we will contact you when we have it!</h4>
       </div> 
     </div>
     
