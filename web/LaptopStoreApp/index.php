@@ -64,8 +64,8 @@ $db = get_db();
 
     <div class="container text-center">
       <div class="jumbotron" style="background-color:#007bff">
-        <h2>Didn't like any of our preset options?</h2>
-        <h3>Build your own Laptop below!</h3>
+        <h2>Didn't like any of our Preset options?</h2>
+        <h3>Add one to the wishlist and we will contact you when we have it!</h3>
       </div> 
     </div>
     
@@ -74,6 +74,10 @@ $db = get_db();
         <div class="form-group">
           <label for="exampleFormControlInput1">Name</label>
           <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name...">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput2">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Laptop Brand</label>
