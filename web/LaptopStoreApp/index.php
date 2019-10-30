@@ -70,18 +70,18 @@ $db = get_db();
     </div>
     
     <div class="container">
-      <form>
+      <form method="POST" action='insert.php'>
         <div class="form-group">
           <label for="exampleFormControlInput1">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name...">
+          <input type="text" class="form-control" name="name" id="name" placeholder="Name...">
         </div>
         <div class="form-group">
           <label for="exampleFormControlInput2">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+          <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Laptop Brand</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" name="brand" id="brand">
             <option>Apple</option>
             <option>HP</option>
             <option>Dell</option>
@@ -91,7 +91,7 @@ $db = get_db();
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Laptop Storage</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" name="storage" id="storage">
             <option>32GB</option>
             <option>64GB</option>
             <option>128GB</option>
@@ -101,7 +101,7 @@ $db = get_db();
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Any special Requests? (We'll do what we can!)</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" name="request" id="request" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary mb-2">Submit</button>
       </form>

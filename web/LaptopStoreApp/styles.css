@@ -1,3 +1,8 @@
 #bodyId {
   background-color: #9de5e1 !important;
 }
+
+h1,
+p {
+  color: white;
+}
