@@ -12,11 +12,11 @@ try
 {
    $query = 'INSERT INTO wishList(buyer_name, email_address, laptop_brand, laptop_storage, request) VALUES(:buyer_name, :email_address, :laptop_brand, :laptop_storage, :request)';
    $statement = $db->prepare($query);
-   $statement->bindValue(':name', $name);
-   $statement->bindValue(':email', $email);
-   $statement->bindValue(':model', $brand);
-   $statement->bindValue(':color', $storage);
-   $statement->bindValue(':price', $request);
+   $statement->bindValue(':buyer_name', $name);
+   $statement->bindValue(':email_address', $email);
+   $statement->bindValue(':laptop_brand', $brand);
+   $statement->bindValue(':laptop_storage', $storage);
+   $statement->bindValue(':request', $request);
    $statement->execute();
 
 	// Now we bind the values to the placeholders. This does some nice things
