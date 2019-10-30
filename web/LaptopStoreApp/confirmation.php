@@ -17,11 +17,11 @@ $db = get_db();
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<?php require_once('navbar.php'); ?>
+
     <section class="pricing py-5">
             <div class="container">
     <?php
-          foreach ($db->query('SELECT * FROM PRODUCT_ORDER ORDER BY id DESC LIMIT 1') as $row) 
+          foreach ($db->query('SELECT * FROM wishList ORDER BY id DESC LIMIT 1') as $row) 
           {
 
             echo '
@@ -43,6 +43,6 @@ $db = get_db();
     </div>
 </section>
 
-<?php require_once('footer.php'); ?>
+
 </body>
 </html>
