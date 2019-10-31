@@ -39,7 +39,7 @@ $db = get_db();
           {
 
             echo '
-              <div class="col-lg-4">
+              <div class="col-lg-3">
                 <div class="card mb-5 mb-lg-0">
                   <div class="card-body">
                     <img src="img/' . ucfirst($row['img']) . '" class="card-img-top" alt="...">
