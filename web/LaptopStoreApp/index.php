@@ -51,6 +51,7 @@ $db = get_db();
                     </ul>
                     <input type="hidden" value="'. $row['id'] .'">
                     <button type="submit" class="btn btn-block btn-primary text-uppercase">Add to Cart</button>
+                    <br>
                   </div>
                 </div>
               </div>
