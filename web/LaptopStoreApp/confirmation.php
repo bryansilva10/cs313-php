@@ -16,7 +16,7 @@ $db = get_db();
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body id="confirmation-body">
 
     <section class="pricing py-5">
             <div class="container">
@@ -25,19 +25,21 @@ $db = get_db();
           {
 
             echo '
-                          <div class="card mb-5 mb-lg-0">
-                            <div class="card-body">
-                  <h6 class="card-price text-center">Order Successfully Done!</h6>
-                  <hr>
-                  <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Name: <strong>' . ucfirst($row['buyer_name']) . '</strong></li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Email: <strong>' . $row['email_address'] . '</strong></li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Model: <strong>' . ucfirst($row['laptop_brand']) . '</strong></li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Color: <strong>' . ucfirst($row['laptop_storage']) . '</strong></li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Price: $ <strong>' . ucfirst($row['request']) . '</strong></li>                     
-                    </ul>
-                </div>
-              </div>';
+                <div class="card mb-5 mb-lg-0">
+                    <div class="card-body">
+                        <h6 class="card-price text-center">Your Order has been Completed!</h6>
+                        <hr>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Name: <strong>' . ucfirst($row['buyer_name']) . '</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Email: <strong>' . $row['email_address'] . '</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Brand: <strong>' . ucfirst($row['laptop_brand']) . '</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Storage: <strong>' . ucfirst($row['laptop_storage']) . '</strong></li>
+                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Notes: $ <strong>' . ucfirst($row['request']) . '</strong></li>                     
+                        </ul>
+                        <hr>
+                        <h6 class="text-center">We will contact you soon!</h6>
+                    </div>
+                </div>';
           }
 ?>
     </div>

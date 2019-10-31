@@ -5,3 +5,7 @@
 .text-jumbo {
   color: white;
 }
+
+img {
+  max-height: 300px;
+}
