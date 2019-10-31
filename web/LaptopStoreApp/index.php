@@ -50,8 +50,7 @@ $db = get_db();
                       <li><span class="fa-li"><i class="fas fa-check"></i></span>Capacity: <strong>' . ucfirst($row['capacity']) . '</strong></li>
                     </ul>
                     <input type="hidden" value="'. $row['id'] .'">
-                    <button type="submit" class="btn btn-block btn-primary text-uppercase">Add to Cart</button>
-                    <br>
+                    <button type="submit" class="btn btn-block btn-primary text-uppercase">Request more info</button>
                   </div>
                 </div>
               </div>
