@@ -27,7 +27,7 @@ $db = get_db();
             echo '
                 <div class="card mb-5 mb-lg-0">
                     <div class="card-body">
-                        <h6 class="card-price text-center">Your Order has been Completed!</h6>
+                        <h6 class="card-price text-center">Your Message has been sent!</h6>
                         <hr>
                         <ul class="fa-ul">
                             <li><span class="fa-li"><i class="fas fa-check"></i></span>Name: <strong>' . ucfirst($row['buyer_name']) . '</strong></li>

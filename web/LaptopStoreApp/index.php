@@ -62,10 +62,17 @@ $db = get_db();
       </div>
     </section>
 
-    <div class="container text-center">
-      <div class="jumbotron text-jumbo" style="background-color:#007bff">
+    <div class="container carousel slide text-center" data-ride="carousel">
+      <div class="jumbotron text-jumbo carousel-inner" style="background-color:#007bff">
+        <div class="carousel-item active">
+          <h3>Put your contact information in the form below</h3>
+          <h4>We will contact you as soon as possible!</h4>
+        </div>
+        <div>
+
+        </div>
         <h3>Didn't like any of our Preset options?</h3>
-        <h4>Add one to the wishlist and we will contact you when we have it!</h4>
+        <h4>Select your desired specs below and we will contact you when we have it!</h4>
       </div> 
     </div>
     
@@ -73,7 +80,7 @@ $db = get_db();
       <form method="POST" action='insert.php'>
         <div class="form-group">
           <label for="exampleFormControlInput1">Name</label>
-          <input type="text" class="form-control" name="name" id="name" placeholder="Name...">
+          <input type="text" class="form-control" name="name" id="name" placeholder="Mirio Togata...">
         </div>
         <div class="form-group">
           <label for="exampleFormControlInput2">Email address</label>
@@ -82,21 +89,22 @@ $db = get_db();
         <div class="form-group">
           <label for="exampleFormControlSelect1">Laptop Brand</label>
           <select class="form-control" name="brand" id="brand">
+            <option>Acer</option>
             <option>Apple</option>
-            <option>HP</option>
             <option>Dell</option>
+            <option>HP</option>
             <option>Lenovo</option>
-            <option>Toshiba</option>
+            <option>Toshiba</option>    
           </select>
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Laptop Storage</label>
           <select class="form-control" name="storage" id="storage">
-            <option>32GB</option>
             <option>64GB</option>
             <option>128GB</option>
             <option>256GB</option>
             <option>512GB</option>
+            <option>1TB</option>
           </select>
         </div>
         <div class="form-group">

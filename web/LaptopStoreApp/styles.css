@@ -9,3 +9,8 @@
 img {
   max-height: 300px;
 }
+
+label {
+  color: white;
+  font-weight: bolder;
+}
