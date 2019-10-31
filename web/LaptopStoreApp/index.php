@@ -68,11 +68,10 @@ $db = get_db();
           <h3>Put your contact information in the form below</h3>
           <h4>We will contact you as soon as possible!</h4>
         </div>
-        <div>
-
+        <div class="carousel-item">
+          <h3>Didn't like any of our Preset options?</h3>
+          <h4>Select your desired specs below and we will contact you when we have it!</h4>
         </div>
-        <h3>Didn't like any of our Preset options?</h3>
-        <h4>Select your desired specs below and we will contact you when we have it!</h4>
       </div> 
     </div>
     
