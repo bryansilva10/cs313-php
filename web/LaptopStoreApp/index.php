@@ -64,11 +64,11 @@ $db = get_db();
 
     <div class="container carousel slide text-center" data-ride="carousel">
       <div class="jumbotron text-jumbo carousel-inner" style="background-color:#007bff">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-interval="5000">
           <h3>Put your contact information in the form below</h3>
           <h4>We will contact you as soon as possible!</h4>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="5000">
           <h3>Didn't like any of our Preset options?</h3>
           <h4>Select your desired specs below and we will contact you when we have it!</h4>
         </div>
