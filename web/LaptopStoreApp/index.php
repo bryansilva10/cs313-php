@@ -50,7 +50,7 @@ $db = get_db();
                       <li><span class="fa-li"><i class="fas fa-check"></i></span>Capacity: <strong>' . ucfirst($row['capacity']) . '</strong></li>
                     </ul>
                     <input type="hidden" value="'. $row['id'] .'">
-                    <button type="submit" class="btn btn-block btn-primary text-uppercase">Request more info</button>
+                    <a href="#request"><button type="submit" class="btn btn-block btn-primary text-uppercase">Request more info</button></a>
                   </div>
                 </div>
                 <br>
@@ -63,7 +63,7 @@ $db = get_db();
       </div>
     </section>
 
-    <div class="container carousel slide text-center" data-ride="carousel">
+    <div id="request" class="container carousel slide text-center" data-ride="carousel">
       <div class="jumbotron text-jumbo carousel-inner" style="background-color:#007bff">
         <div class="carousel-item active" data-interval="6000">
           <h3>Put your contact information in the form below</h3>
