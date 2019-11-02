@@ -19,30 +19,41 @@ $db = get_db();
 <body id="confirmation-body">
 
     <section class="pricing py-5">
-            <div class="container">
-    <?php
-          foreach ($db->query('SELECT * FROM wishList ORDER BY id DESC LIMIT 1') as $row) 
-          {
+    <div class="container">
+        <?php
+            foreach ($db->query('SELECT * FROM wishList ORDER BY id DESC LIMIT 1') as $row) 
+            {
 
-            echo '
-                <div class="card mb-5 mb-lg-0">
-                    <div class="card-body">
-                        <h6 class="card-price text-center">Your Message has been sent!</h6>
-                        <hr>
-                        <ul class="fa-ul">
-                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Name: <strong>' . ucfirst($row['buyer_name']) . '</strong></li>
-                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Email: <strong>' . $row['email_address'] . '</strong></li>
-                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Brand: <strong>' . ucfirst($row['laptop_brand']) . '</strong></li>
-                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Storage: <strong>' . ucfirst($row['laptop_storage']) . '</strong></li>
-                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Notes: $ <strong>' . ucfirst($row['request']) . '</strong></li>                     
-                        </ul>
-                        <hr>
-                        <h6 class="text-center">We will contact you soon!</h6>
-                    </div>
-                </div>';
-          }
-?>
+                echo '
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h6 class="card-price text-center">Your Message has been sent!</h6>
+                            <hr>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Name: <strong>' . ucfirst($row['buyer_name']) . '</strong></li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Email: <strong>' . $row['email_address'] . '</strong></li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Brand: <strong>' . ucfirst($row['laptop_brand']) . '</strong></li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Storage: <strong>' . ucfirst($row['laptop_storage']) . '</strong></li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Notes: $ <strong>' . ucfirst($row['request']) . '</strong></li>                     
+                            </ul>
+                            <hr>
+                            <h6 class="text-center">We will contact you soon!</h6>
+                        </div>
+                    </div>';
+            }
+        ?>
     </div>
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-blue">
+
+      <!-- Copyright -->
+      <div class="container text-center" style="color: white">© 2019 Copyright
+        <a href="https://github.com/bryansilva10"> Check my Github!</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+      <!-- Footer -->
 </section>
 
 

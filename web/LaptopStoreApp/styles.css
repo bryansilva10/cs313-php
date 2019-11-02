@@ -14,3 +14,8 @@ label {
   color: white;
   font-weight: bolder;
 }
+
+#confirmation-body {
+  padding: 5em;
+  background-color: #252926 !important;
+}
