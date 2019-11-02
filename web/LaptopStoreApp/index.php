@@ -53,6 +53,7 @@ $db = get_db();
                     <button type="submit" class="btn btn-block btn-primary text-uppercase">Request more info</button>
                   </div>
                 </div>
+                <br>
               </div>
             ';
           }
