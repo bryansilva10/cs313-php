@@ -22,7 +22,7 @@ $db = get_db();
       <div class="container text-center">
         <div class="jumbotron text-jumbo" style="background-color:#007bff">
           <h1>Guillen Laptop Store</h1>
-          <p>We have any kind of brand and storage you wish!</p>
+          <h3>We have any kind of brand and storage you wish!</h3>
         </div>
       </div>
     </header>
@@ -122,7 +122,7 @@ $db = get_db();
     <footer class="footer mt-auto py-3 bg-blue">
 
       <!-- Copyright -->
-      <div class="container text-center">© 2019 Copyright
+      <div class="container text-center" style="color: white">© 2019 Copyright
         <a href="https://github.com/bryansilva10">Check my Github!</a>
       </div>
       <!-- Copyright -->
