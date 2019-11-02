@@ -1,10 +1,10 @@
 --LAPTOP VARIETY
-INSERT INTO laptop(img, name_laptop) VALUES ('Dell.png','Dell');
-INSERT INTO laptop(img, name_laptop) VALUES ('Apple.png','Apple');
-INSERT INTO laptop(img, name_laptop) VALUES ('Hp.png','HP');
-INSERT INTO laptop(img, name_laptop) VALUES ('Lenovo.png','Lenovo');
-INSERT INTO laptop(img, name_laptop) VALUES ('Toshiba.png','Toshiba');
-INSERT INTO laptop(img, name_laptop) VALUES ('Acer.png','Acer');
+INSERT INTO laptop(img, name_laptop) VALUES ('Dell.jpeg','Dell');
+INSERT INTO laptop(img, name_laptop) VALUES ('Apple.jpeg','Apple');
+INSERT INTO laptop(img, name_laptop) VALUES ('Hp.jpeg','HP');
+INSERT INTO laptop(img, name_laptop) VALUES ('Lenovo.jpeg','Lenovo');
+INSERT INTO laptop(img, name_laptop) VALUES ('Toshiba.jpeg','Toshiba');
+INSERT INTO laptop(img, name_laptop) VALUES ('Acer.jpeg','Acer');
 
 
 --STORAGE VARIETY
